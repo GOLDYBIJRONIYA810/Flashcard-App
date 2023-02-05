@@ -5,13 +5,22 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #f7f9fd;
+   
+background: linear-gradient(168deg,rgb(32, 158, 197),pink);
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+
+img{
+  align-items: center;
 }
 .container {
   width: 90vw;
   max-width: 62.5em;
   position: relative;
   margin: auto;
+  
 }
 .add-flashcard-con {
   display: flex;
@@ -56,6 +65,8 @@ button {
   text-align: center;
   margin-bottom: 2em;
 }
+
+
 .wrapper {
   display: grid;
   grid-template-columns: 11fr 1fr;
